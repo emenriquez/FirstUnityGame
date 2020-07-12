@@ -13,6 +13,6 @@ public class Test : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        rb.AddForce(-500 * Time.deltaTime, 200 * Time.deltaTime, 0);
+        rb.AddForce(0, 0, 500 * Time.deltaTime);
     }
 }
